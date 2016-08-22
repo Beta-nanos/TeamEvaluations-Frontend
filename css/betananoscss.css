@@ -1,0 +1,98 @@
+/*Index*/
+
+.jumbotron {
+    background-color: #000;
+    color: #fff;
+    padding: 18% 25%;
+    margin-bottom: 0% !important;
+}
+
+.container-fluid-2 {
+    padding: 30px 20px;
+}
+
+.container-fluid{
+	margin-left: 0% !important;
+	margin-right: 0% !important;
+	padding: 0% !important;
+}
+
+.panelSignUp{
+	background-image: url("../img/chbn.jpg")!important;
+	padding: 20% 20%;
+}
+
+.panelFormSignUp
+{
+	padding-top: 5%;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-bottom: 2%;
+}
+
+blockquote
+{
+	color:#22C6C9 !important;
+	font-size: 14px;
+}
+
+.footer
+{
+	background-color: #000;
+	padding: 5% 5% !important;
+	text-align: center;
+	color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #000;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/*Teacher*/
+.panelMenu
+{
+	background-color: #ccc !important;
+	height: 100% !important;
+	padding-top:5% !important;
+	padding-bottom:20% !important;
+	padding-left: 5%!important;
+}
+
+#panelGroupForms
+{
+	padding-top:6% !important;
+	padding-bottom:10% !important;
+	padding-left: 5%!important;
+
+}
+
+.panelGroups
+{
+	background-color: #ccc !important;
+}
+
+#Group
+{
+	width: 20% !important;
+}
