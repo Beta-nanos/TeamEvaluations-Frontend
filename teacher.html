@@ -98,7 +98,7 @@
 
               <hr>
               <div class="form-group">
-                <button type="button" class="btn btn-info" id="btn_CreateGroup">Create group</button>
+                <button type="button" class="btn btn-info" id="btn_CreateGroup">Edit group</button>
               </div>
           </form>
 
@@ -126,7 +126,95 @@
     <div class="container-fluid Activities" id="activities">
         <h1>[ACTIVITIES]</h1>
     </div>
-    
+    <!--Group-->
+    <div id="activities" class="container-fluid">
+      <div class="col-sm-4 panelMenu">
+        <img href="img/user.png">
+        <h1><strong>ACTIVITIES</strong></h1>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a data-toggle="tab" href="#actcreate">CREATE</a></li>
+          <li><a data-toggle="tab" href="#actedit">EDIT</a></li>
+          <li><a data-toggle="tab" href="#actview">VIEW</a></li>
+        </ul>
+      </div>
+      <!--Panel Forms-->
+      <div class="col-sm-8 tab-content" id="panelGroupForms">
+        <div id="actcreate" class="tab-pane fade in active">
+          <h2>CREATE</h2>
+          <br>
+          <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="tg_name" placeholder="Activity name">
+              </div>
+              <div class="form-group">
+                <label for="sel1">Asign Group</label>
+                <select class="form-control" id="sel1">
+                  <option>Group1</option>
+                  <option>Group2</option>
+                  <option>Group3</option>
+                  <option>Group4</option>
+                </select>
+              </div>
+              <hr>
+              <button type="button" class="btn btn-default" id="">Group1</button>
+
+              <hr>
+              <div class="form-group">
+                <button type="button" class="btn btn-info" id="btn_CreateGroup">Create activity</button>
+              </div>
+          </form>
+        </div>
+        <div id="actedit" class="tab-pane fade">
+          <h2>EDIT</h2>
+          
+          <form>
+              <div class="form-group form-inline">
+                <input type="text" class="form-control" id="tg_name" placeholder="Activity name">
+                <button type="button" class="btn btn-info" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                </button>
+              </div>
+              
+              <div class="form-group">
+                <label for="sel1">Asign new Group</label>
+                <select class="form-control" id="sel1">
+                  <option>Group 1</option>
+                  <option>Group 2</option>
+                  <option>Group 3</option>
+                  <option>Group 4</option>
+                </select>
+                
+              </div>
+
+              <hr>
+              <button type="button" class="btn btn-default" id="">Group1</button>
+
+              <hr>
+              <div class="form-group">
+                <button type="button" class="btn btn-info" id="btn_CreateGroup">Edit Activity</button>
+              </div>
+          </form>
+
+        </div>
+        <div id="actview" class="tab-pane fade">
+          <h2>VIEW</h2>
+              <div class="panel panel-default text-center" id="Group">
+                <div class="panel-heading">
+                  <h3>Activity 1</h3>
+                </div>
+                <div class="panel-body">
+                  <p>Group 1 <span class="badge">100%</span></p>
+                  <p>Group 2 <span class="badge">100%</span></p>
+                  <p>Group 3 <span class="badge">100%</span></p>
+                  <p>Group 4 <span class="badge">100%</span></p>
+                </div>
+                <div class="panel-footer">
+                </div>
+              </div> 
+        </div>
+      </div>
+    </div>
+
     <!--Footer-->
     <div class="container-fluid footer">
       <p>Betananos 2016</p>

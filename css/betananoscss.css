@@ -76,7 +76,7 @@ blockquote
 	background-color: #ccc !important;
 	height: 100% !important;
 	padding-top:5% !important;
-	padding-bottom:20% !important;
+	padding-bottom:28% !important;
 	padding-left: 5%!important;
 }
 
@@ -121,4 +121,23 @@ blockquote
 .ActivityColor
 {
 	color:#46b8da !important;
+}
+
+.badge
+{
+	    background-color: #46b8da !important;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #000000;
+    border-color: #0c0000;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
