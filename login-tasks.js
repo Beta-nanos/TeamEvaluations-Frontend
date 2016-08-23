@@ -1,4 +1,4 @@
-loginTasks.$inject = [ '$http'];
+loginTasks.$inject = ['$http'];
 
 function loginTasks($http){
 	var url = 'http://localhost:3000/explorer/Users/';
